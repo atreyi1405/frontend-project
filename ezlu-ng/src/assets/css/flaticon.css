@@ -1,0 +1,48 @@
+/*
+Flaticon icon font: Flaticon
+*/
+@font-face {
+	font-family: "Flaticon";
+	src: url("../../assets/fonts/Flaticon.eot");
+	src: url("../../assets/fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+	url("../../assets/fonts/Flaticon.woff2") format("woff2"),
+	url("../../assets/fonts/Flaticon.woff") format("woff"),
+	url("../../assets/fonts/Flaticon.ttf") format("truetype"),
+	url("../../assets/fonts/Flaticon.svg#Flaticon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: "Flaticon";
+		src: url("../../assets/fonts/Flaticon.svg#Flaticon") format("svg");
+	}
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+	font-style: normal;
+}
+
+.flaticon-call:before { content: "\f100"; }
+.flaticon-envelope:before { content: "\f101"; }
+.flaticon-maps-and-flags:before { content: "\f102"; }
+.flaticon-facebook:before { content: "\f103"; }
+.flaticon-twitter:before { content: "\f104"; }
+.flaticon-linkedin:before { content: "\f105"; }
+.flaticon-instagram:before { content: "\f106"; }
+.flaticon-search:before { content: "\f107"; }
+.flaticon-list:before { content: "\f108"; }
+.flaticon-winner:before { content: "\f109"; }
+.flaticon-customer-service:before { content: "\f10a"; }
+.flaticon-handshake:before { content: "\f10b"; }
+.flaticon-technical-support:before { content: "\f10c"; }
+.flaticon-megaphone:before { content: "\f10d"; }
+.flaticon-optimization:before { content: "\f10e"; }
+.flaticon-first-place:before { content: "\f10f"; }
+.flaticon-alarm-clock:before { content: "\f110"; }
+.flaticon-newsletter:before { content: "\f111"; }
+.flaticon-checkmark:before { content: "\f112"; }
+.flaticon-startup:before { content: "\f113"; }
+.flaticon-right:before { content: "\f114"; }
+.flaticon-left:before { content: "\f115"; }
