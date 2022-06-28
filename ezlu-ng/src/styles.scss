@@ -1486,7 +1486,7 @@ h3 {
 
 /* Footer Section CSS Start */
 .footer-area {
-    background:#0d3642;
+    background:$page-title-bg;
     padding-top: 235px;
     clip-path: polygon(53% 15%, 100% 0, 100% 43%, 100% 78%, 100% 100%, 32% 100%, 0 100%, 0% 43%, 0 0);
 
@@ -1744,7 +1744,7 @@ h3 {
     }
     .about-text {
         position: relative;
-        background: #0d3642;
+        background: $page-title-bg;
         padding: 70px 80px;
 
         p {
