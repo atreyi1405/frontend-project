@@ -26,6 +26,7 @@ import { BlogThreeComponent } from './components/pages/blog-three/blog-three.com
 import { BlogDetailsComponent } from './components/pages/blog-details/blog-details.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
