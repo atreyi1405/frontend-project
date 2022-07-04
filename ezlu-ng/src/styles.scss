@@ -1325,14 +1325,35 @@ h3 {
 
 /* Price CSS Start */
 .pricing-section {
+    #one{
+        margin-left:-120px;
+    }
+
+    #two{
+        margin-left:-150px;
+    }
+
+    #three{
+        margin-left:-170px;
+    }
+    #four{
+        margin-top: -800px;
+        top:-28px;
+        right:-1110px;
+        
+        
+    }
     
     .pricing-card {
+       display: inline-block;
         padding: 45px;
         box-shadow: 0 0 10px rgba(0,0,0,.15);
-        position: absolute;
-        margin-bottom: 30px;
+        
+        margin-bottom: -270px;
         background: $white-color;
+        overflow: hidden;
 
+        
         &::before {
             top: 0;
             left: 0;
@@ -2984,6 +3005,11 @@ h3 {
         z-index: -1;
       } 
       
+      .default-btn{
+        position:relative;
+        top:640px;
+        
+      }
    
 
 
