@@ -1323,6 +1323,132 @@ h3 {
 }
 /* Blog CSS End */
 
+/* Price CSS Start */
+.pricing-section {
+    
+    .pricing-card {
+        padding: 45px;
+        box-shadow: 0 0 10px rgba(0,0,0,.15);
+        position: absolute;
+        margin-bottom: 30px;
+        background: $white-color;
+
+        &::before {
+            top: 0;
+            left: 0;
+            z-index:0;
+            width: 100%;
+            content: '';
+            height: 270px;
+            position: absolute;
+            background: $green-color;
+            clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 100%);
+        }
+        .price-header {
+            position: relative;
+            margin-bottom: 100px;
+
+            h2 {
+                color: $white-color;
+                font-size: 32px;
+                font-weight:700;
+                margin-bottom: 5px;
+                line-height: 1;
+            }
+            h3 {
+                color: $white-color;
+                font-size:32px;
+                font-weight: 700;
+
+                sup {
+                    font-size: 15px;
+                    font-weight: 400;
+                    top: -14px;
+                    position: relative;
+                }
+                span {
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+            }
+            i {
+                left: 0;
+                right: 0;
+                top: 115px;            
+                z-index: 0;
+                margin: auto;
+                width: 100px;
+                height: 100px;
+                color: #000000;
+                font-size: 60px;
+                line-height: 90px;
+                position: absolute;
+                border-radius: 50px;
+                display: inline-block;
+                background:$white-color;
+                border: 5px solid $green-color;
+                box-shadow: 0px 10px 20px rgba(0,0,0,.15);
+            }
+        }
+        .pricing-feature {
+            padding: 75px 0px 40px;
+
+            ul {
+                padding-left: 0;
+                margin-bottom: 0;
+
+                li {
+                    color: #808291;
+                    font-size: 18px;
+                    margin-bottom:5px;
+                    list-style: none;
+
+                    i {
+                        color: $green-color;
+                        margin-right: 10px;
+                    }
+                }
+                :last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        &.price-card-two {
+            i {
+                z-index: 1;
+            }
+            &::before {
+                height: 250px;
+                clip-path: polygon(0 0, 100% 0, 100% 70%, 0 70%);
+            }
+            &::after {
+                position: absolute;
+                content: '';
+                width: 50px;
+                top: 150px;
+                left: 0;
+                right: 0;
+                margin: auto;
+                border-left: 90px solid transparent;
+                border-right: 90px solid transparent;
+                border-top: 100px solid $green-color;
+                z-index:0;
+            }
+        }
+        &.price-card-three {
+
+            &::before {
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 65%);
+            }
+        }
+
+        
+
+        
+    }
+}
+/* Price CSS End */
+
 /* Contact CSS Start */
 .contact-section {  
     .contact-img {
@@ -2841,6 +2967,24 @@ h3 {
     }
 }
 /**-------------- Pricing Page CSS End --------------**/
+
+/**-------------- Coming Soon CSS Start -------------**/
+
+.coming-soon-title{
+    height: 400px;
+    background:$page-title-bg;
+    .title-text {
+        h2 {
+            color: $white-color;
+            font-size: 38px;
+            font-weight: 700;
+            margin-bottom:10px;
+        }
+    }
+
+}
+
+/**-------------- Coming Soon CSS End --------------**/
 
 /**-------------- 404 Page CSS Start --------------**/
 .error-title {
