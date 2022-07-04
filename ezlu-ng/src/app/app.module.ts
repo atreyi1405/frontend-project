@@ -25,7 +25,7 @@ import { BlogTwoComponent } from './components/pages/blog-two/blog-two.component
 import { BlogThreeComponent } from './components/pages/blog-three/blog-three.component';
 import { BlogDetailsComponent } from './components/pages/blog-details/blog-details.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
-import { ComingSoonComponent } from './coming-soon/coming-soon.component';
+import { ComingSoonComponent } from './components/pages/coming-soon/coming-soon.component';
 
 
 

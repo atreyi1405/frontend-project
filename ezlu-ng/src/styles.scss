@@ -2970,19 +2970,32 @@ h3 {
 
 /**-------------- Coming Soon CSS Start -------------**/
 
-.coming-soon-title{
-    height: 400px;
-    background:$page-title-bg;
-    .title-text {
-        h2 {
-            color: $white-color;
-            font-size: 38px;
-            font-weight: 700;
-            margin-bottom:10px;
-        }
-    }
+.coming-soon-section{
+   
+    #background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+      } 
+      
+   
+
 
 }
+
+
+  
+
+
+
+
+
 
 /**-------------- Coming Soon CSS End --------------**/
 
