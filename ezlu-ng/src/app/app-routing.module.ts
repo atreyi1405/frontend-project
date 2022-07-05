@@ -19,6 +19,7 @@ import { ServiceComponent } from './components/pages/service/service.component';
 import { ServiceDetailsComponent } from './components/pages/service-details/service-details.component';
 import { AboutComponent } from './components/pages/about/about.component';
 import { ComingSoonComponent } from './components/pages/coming-soon/coming-soon.component';
+import { TermsComponent } from './components/pages/terms/terms.component';
 
 const routes: Routes = [
   {path: '', component: HomeOneComponent},
@@ -40,6 +41,7 @@ const routes: Routes = [
     {path: 'blog-details', component: BlogDetailsComponent},
     {path: 'contact', component: ContactComponent},
     {path: 'coming-soon', component:ComingSoonComponent},
+    {path: 'terms', component:TermsComponent},
     // Here add new pages component
 
     {path: '**', component: ErrorComponent} // This line will remain down from the whole pages component list
