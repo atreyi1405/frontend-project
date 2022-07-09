@@ -691,9 +691,10 @@ h3 {
             }
         }
         .theory-img {
-            position: absolute;
+            position: relative;
             right: 0;
             max-width: 550px;
+            top:100px;
             bottom: 0;
         }
     }
@@ -888,6 +889,7 @@ h3 {
         left: 0;
         top: 0;
     }
+    
     .service-text {
         position: relative;
         background: #0d3642;
@@ -2986,7 +2988,46 @@ h3 {
             }
         }
     }
+
+    
 }
+/**
+.rectangle{
+    padding:2%;
+    border: 3px solid black;
+    border-radius: 20%;
+    width:40%;
+    
+    
+}
+
+.pay{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+    
+}
+
+.sub{
+  position:relative;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  right:-25%;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  width:38%;
+  border-radius: 50%;
+}
+
+**/
+  
+ 
 /**-------------- Pricing Page CSS End --------------**/
 
 /**-------------- Coming Soon CSS Start -------------**/
@@ -3506,7 +3547,83 @@ h3 {
 
 /**-------------- Terms Page CSS Start --------------**/
 
+.terms-title{
+    height: 400px;
+    background:$page-title-bg;
 
+    .title-text {
+        h2 {
+            color: $white-color;
+            font-size: 38px;
+            font-weight: 700;
+            margin-bottom:10px;
+        }
+        ul {
+            padding-left: 0;
+            margin-bottom: 0;
+
+            li {
+                font-size:18px;
+                color: $white-color;
+                display: inline-block;
+                position: relative;
+                margin: 0 13px;
+
+                &::before {
+                    position: absolute;
+                    content: '';
+                    width: 5px;
+                    height: 5px;
+                    background: $white-color;
+                    top: 15px;
+                    right: -15px;
+                    border-radius: 10px;
+                }
+                a {
+                    color: $white-color;
+
+                    &:hover {
+                        color: $green-color;
+                    }
+                }
+                i {
+                    font-size:14px;
+                }
+                &:last-child {
+                    &::before {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+.terms-section {
+    padding-bottom: 60px;
+
+    .terms-text {
+        margin-bottom:15px;
+
+        h3 {
+            font-size: 20px;
+            font-family: "Poppins", sans-serif;
+            color: #0f2137;
+            text-transform: capitalize;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
+    ul {        
+        li {
+            margin-top: 10px;
+            list-style: circle;
+            color: #111111;
+        }
+    }
+}
 
 /**-------------- Terms Page CSS End ----------------**/
 
