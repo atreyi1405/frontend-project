@@ -41,7 +41,7 @@ const routes: Routes = [
     {path: 'terms', component:TermsComponent},
     // Here add new pages component
 
-    {path: '**', component: ErrorComponent} // This line will remain down from the whole pages component list
+    {path: '**', component: ErrorComponent} 
 ];
 
 @NgModule({
